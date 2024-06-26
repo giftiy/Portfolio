@@ -1,0 +1,121 @@
+body {
+    transition: 900ms;
+    /* background: rgba(0, 0, 0, 0.424); */
+    /* background: rgba(0, 0, 0); */
+    background: rgb(16, 29, 17);
+    /* background-image: linear-gradient(50deg, black, rgb(16, 36, 18)); */
+}
+
+.nav_bars ul li a {
+    /* padding: 10px; */
+    color: rgb(237, 237, 237);
+    /* text-decoration: none; */
+}
+
+.brief_name * {
+    color: white;
+}
+
+.social_contact * {
+    color: rgb(221, 255, 212);
+}
+
+.section_name {
+    color: rgba(255, 255, 255, 0.316);
+}
+
+.about_me_section {
+    color: rgba(255, 255, 255, 0.709);
+    /* user-select: rgb(160, 224, 81); */
+    /* selec */
+}
+
+
+/* 
+.about_me_section::selection {
+    background-color: rgb(1, 102, 3);
+    border-radius: 5px;
+} */
+
+.service_name {
+    color: rgba(255, 255, 255, 0.768);
+}
+
+.service_description {
+    color: rgba(174, 188, 173, 0.659);
+}
+
+.service_icon .fa-solid {
+    color: rgba(110, 183, 41, 0.713);
+}
+
+.subsection_name {
+    /* color: rgba(255, 255, 255, 0.768); */
+    color: rgba(184, 207, 178, 0.678);
+}
+
+.gen_skill_icon .fa-solid {
+    color: rgba(110, 183, 41, 0.713);
+}
+
+.gen_skill_name {
+    color: rgba(216, 216, 216, 0.718);
+}
+
+.gen_skill_description {
+    color: rgba(255, 255, 255, 0.864);
+}
+
+.skill_progress {
+    /* background: rgba(100, 113, 101, 0.433); */
+    background: rgba(255, 255, 255, 0.433);
+}
+
+.skill_progress_bar {
+    background: rgba(19, 54, 22, 0.627);
+    color: rgba(185, 219, 167, 0.759);
+}
+
+.skill_name {
+    background: rgb(4, 32, 15);
+}
+
+.subsection_content {
+    background: rgba(153, 194, 153, 0.134);
+}
+
+.nav_bars ul li:hover {
+    transition: 0.8s;
+    background-color: rgba(192, 201, 192, 0.234);
+}
+
+.contact-note_title {
+    color: wheat;
+}
+
+.contact-note_description {
+    color: rgb(255, 255, 255);
+}
+
+.contact-form {
+    background: rgba(59, 148, 27, 0.167);
+}
+
+.contact-form_title {
+    color: wheat;
+}
+
+.subsection_name {
+    /* color: wheat; */
+}
+
+.contact-name_email input,
+#comment-area {
+    color: wheat;
+    border-color: rgb(27, 108, 0);
+}
+
+.contact-name_email input::placeholder,
+#comment-area::placeholder {
+    color: rgb(153, 170, 147);
+}

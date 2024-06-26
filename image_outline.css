@@ -1,0 +1,62 @@
+.image_outline {
+    width: 450px;
+    height: 450px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    z-index: 20;
+    border-radius: 45%;
+    transition: 600ms;
+    z-index: -1;
+}
+
+.outline1 {
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    /* background-color: rgba(149, 214, 149, 0.145); */
+    border: 2px dashed green;
+    z-index: -1;
+}
+
+.user_image:hover .outline2 {
+    transform: rotate(36deg);
+    border: 2px dashed rgba(157, 165, 15, 0.871);
+    width: 450px;
+    height: 450px;
+    animation-name: rotation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.user_image:hover .outline3 {
+    transform: rotate(-30deg);
+    width: 430px;
+    height: 430px;
+    border: 2px dashed rgba(1, 166, 255, 0.871);
+    animation-name: rotation1;
+    animation-duration: 10s;
+    animation-delay: 700ms;
+    animation-iteration-count: infinite;
+}
+
+.user_image:hover .outline4 {
+    transform: rotate(50deg);
+    border: 2px dashed rgba(60, 165, 15, 0.871);
+    background: rgba(48, 132, 42, 0.184);
+    animation-name: rotation1;
+    animation-duration: 10s;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(300deg);
+    }
+}
